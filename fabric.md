@@ -1,0 +1,1 @@
+[The notebook that sets everything up in Fabric](./fabric-ai-skill.ipynb)

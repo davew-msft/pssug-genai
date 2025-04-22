@@ -14,7 +14,7 @@ _This schedule is subject to change depending on how much progress we make each 
   * we'll also take a look at Natural Language to SQL (nl2sql) and the pros and cons of doing this
 * 4/23 630-830  virtual only
   * advanced topics around "querying databases"
-    * nl2sql in Fabric
+    * [nl2sql in Fabric](fabric.md)
     * TAG and LOTUS
   * What does the "near future" look like?  
     * Advanced use cases
