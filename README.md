@@ -13,15 +13,17 @@ _This schedule is subject to change depending on how much progress we make each 
   * might be worth talking through how to find good use cases, how to structure a team and project, pick tools, how the real world does Responsible AI etc
   * we'll also take a look at Natural Language to SQL (nl2sql) and the pros and cons of doing this
 * 4/23 630-830  virtual only
-  * advanced topics around "querying databases"
+  * Fabric and AI
     * [nl2sql in Fabric](fabric.md)
+    * [fabric copilot in spark notebooks](./Copilot.ipynb)
+  * advanced topics around "querying databases"
     * TAG and LOTUS
   * What does the "near future" look like?  
     * Advanced use cases
     * GraphRAG (RAG against a Knowledge Graph)
   * bring your use cases and questions and let's discuss them
   * let's get ready for actually building something using an LLM.  Let's get an environment setup and ready.  
-* 4/30 630-830 virtual onliy 
+* 4/30 630-830 virtual only 
   * let's build something and test the waters.  this might be complicated if folks don't have access to azure subscriptions and whatnot.  I might have a good solution to this problem by then.  Otherwise, another possible topic would be Fabric and the AI skills that exist there (altho they are half-baked).
 
 [Registration](https://www.eventbrite.com/e/phila-sql-april-2025-user-group-meeting-dave-wentzel-series-part-1-of-4-tickets-1291203216579?aff=oddtdtcreator)
