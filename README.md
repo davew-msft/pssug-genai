@@ -17,6 +17,17 @@ _This schedule is subject to change depending on how much progress we make each 
     * [nl2sql in Fabric](fabric.md)
     * [fabric copilot in spark notebooks](./Copilot.ipynb)
   * advanced topics around "querying databases"
+    * we can definitely do nl2sql...that's easy, but there are VERY difficult problems we still need to solve
+      * complex schemas  (lots of tables with goofy naming conventions, non-intuitive join keys, complex filter conditions like adding `WHERE status = 1` to all queries)
+        * we can handle this with judicious views
+      * natural language ambiguity:  example:  "how much" (dollar amounts) vs "how many" (counts) queries
+        * we can provide few-shot prompts to describe which columns we should use when the query is asking _how much_ vs _how many_
+        * lots of other examples like this
+        * aka "understanding _intent_"
+      * tribal knowledge:  understanding that certain _phrases_ mean different things in different companies
+        * "active customer" could mean "customers who bought something in the last 3 months" at one company, but 6 months at another company
+          * we can again solve this with few-shot prompting.  
+    * is there a better way to do all of this?  can we use a search index to help us?  YES.  [Using a search index to aid nl2sql](./nlsql-search-index.md)
     * TAG and LOTUS
   * What does the "near future" look like?  
     * Advanced use cases
