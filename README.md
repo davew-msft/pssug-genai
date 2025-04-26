@@ -19,6 +19,7 @@ _This schedule is subject to change depending on how much progress we make each 
   * might be worth talking through how to find good use cases, how to structure a team and project, pick tools, how the real world does Responsible AI etc
   * we'll also take a look at Natural Language to SQL (nl2sql) and the pros and cons of doing this
 * 4/23 630-830  virtual only
+  * [Here is the general pattern for basic NL2SQL tasks](structured_data_retreival_nltosql.ipynb)
   * Fabric and AI
     * [nl2sql in Fabric](fabric.md)
     * [fabric copilot in spark notebooks](./Copilot.ipynb)
@@ -35,7 +36,8 @@ _This schedule is subject to change depending on how much progress we make each 
           * we can again solve this with few-shot prompting.  
     * is there a better way to do all of this?  can we use a search index to help us?  YES.  [Using a search index to aid nl2sql](./nlsql-search-index.md)
     * TAG and LOTUS
-    llms over tables of unstructured and structured data
+    * llms over tables of unstructured and structured data
+
   * What does the "near future" look like?  
     * Advanced use cases
     * GraphRAG (RAG against a Knowledge Graph)
