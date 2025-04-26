@@ -1,5 +1,11 @@
 # PSSUG GenAI sessions - April 2025
 
+
+dave@davewentzel.com
+davew@microsoft.com
+linkedin.com/in/dwentzel
+
+
 ## Schedule 
 
 _This schedule is subject to change depending on how much progress we make each week_
@@ -29,6 +35,7 @@ _This schedule is subject to change depending on how much progress we make each 
           * we can again solve this with few-shot prompting.  
     * is there a better way to do all of this?  can we use a search index to help us?  YES.  [Using a search index to aid nl2sql](./nlsql-search-index.md)
     * TAG and LOTUS
+    llms over tables of unstructured and structured data
   * What does the "near future" look like?  
     * Advanced use cases
     * GraphRAG (RAG against a Knowledge Graph)
