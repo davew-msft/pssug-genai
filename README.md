@@ -45,6 +45,12 @@ _This schedule is subject to change depending on how much progress we make each 
   * let's get ready for actually building something using an LLM.  Let's get an environment setup and ready.  
 * 4/30 630-830 virtual only 
   * let's build something and test the waters.  this might be complicated if folks don't have access to azure subscriptions and whatnot.  I might have a good solution to this problem by then.  Otherwise, another possible topic would be Fabric and the AI skills that exist there (altho they are half-baked).
+    * [AI Dev Gallery](https://apps.microsoft.com/detail/9n9pn1mm3bd5?hl=en-US&gl=US)
+      * windows app, runs all models locally, good for experimentation and _art of the possible_.  
+      * no need for azure access or microsoft account
+      * [gh repo to learn more](https://github.com/microsoft/ai-dev-gallery/)
+    * [Build Your Own NL2SQL copilot](./nl2sql/README.md)
+      * you will need to know some python (not much()), have access to a sql server somewhere, and access to GPT4 (either via Azure, which you can do for free, or OpenAI directly)
 
 [Registration](https://www.eventbrite.com/e/phila-sql-april-2025-user-group-meeting-dave-wentzel-series-part-1-of-4-tickets-1291203216579?aff=oddtdtcreator)
 
