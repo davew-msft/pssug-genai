@@ -14,3 +14,26 @@ You'll need to install:
 * vscode
 * jupyter notebook extension
 * open the [nl2sql jupyter notebook](./nl2sql.ipynb) and follow along
+
+## If you need a sql server for testing ...
+
+...and you are ok with Docker...
+
+_you may need to adjust these commands if you do NOT use WSL_
+
+```bash
+
+docker pull mcr.microsoft.com/mssql/server:2019-latest
+
+# basic syntax
+docker run -e 'ACCEPT_EULA=Y' \
+   -e 'SA_PASSWORD=Password01!!' \
+   -p 1433:1433 \
+   -h DockerSQL \
+   --name DockerSQL \
+   -d \
+   mcr.microsoft.com/mssql/server:2019-CTP3.0-ubuntu 
+
+docker ps -a
+
+```
