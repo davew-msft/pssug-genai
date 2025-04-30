@@ -32,7 +32,7 @@ docker run -e 'ACCEPT_EULA=Y' \
    -h DockerSQL \
    --name DockerSQL \
    -d \
-   mcr.microsoft.com/mssql/server:2019-CTP3.0-ubuntu 
+   mcr.microsoft.com/mssql/server:2019-latest
 
 docker ps -a
 
